@@ -88,4 +88,17 @@ class VisualRecognition:
 
 
 if __name__ == '__main__':
+    # my encrypted user id from udata.json, api_key is not exposed
+    # udata.json format, if you wanna replicate it put in ./db/udata.json
+    # {
+    #     '<user_id_here>': {
+    #         "firstName": <your_name_here>,
+    #         "tokens": [
+    #             {
+    #                 "site": "ibm",
+    #                 "site_url": '<api_url_here>',
+    #                 "api_key": '<api_key_here>'
+    #             }
+    #         ]
+    # }
     vr = VisualRecognition(user_id="6541764432777451972")
