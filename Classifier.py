@@ -29,7 +29,8 @@ class VisualRecognition:
 
         # define image urls
         if image_urls is None:
-            self.urls = ['http://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/CV0101/Images/Donald_Trump_Justin_Trudeau_2017-02-13_02.jpg', 'https://i5.walmartimages.ca/images/Enlarge/094/510/6000200094510.jpg']
+            self.urls = ['https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Hotdog_-_Evan_Swigart.jpg/220px-Hotdog_-_Evan_Swigart.jpg',
+                         'https://i5.walmartimages.ca/images/Enlarge/094/510/6000200094510.jpg']
         if type(image_urls) is str:
             self.urls = [image_urls]
 
