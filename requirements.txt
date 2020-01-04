@@ -2,4 +2,4 @@ numpy
 scipy
 matplotlib
 pandas
-cv2
+open-cv
