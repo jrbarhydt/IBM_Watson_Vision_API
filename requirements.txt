@@ -1,3 +1,5 @@
+scikit-learn
+pylab
 numpy
 scipy
 matplotlib
